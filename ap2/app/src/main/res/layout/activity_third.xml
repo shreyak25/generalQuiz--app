@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5AD3E2"
+    android:orientation="vertical"
+    tools:context=".third">
+
+    <TextView
+        android:id="@+id/q2"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:text="Who is the CEO of Microsoft?" />
+
+    <RadioGroup
+        android:id="@+id/g2"
+        android:layout_width="match_parent"
+        android:layout_height="269dp">
+
+        <RadioButton
+            android:id="@+id/o2a"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sunder Pichai" />
+
+        <RadioButton
+            android:id="@+id/o2b"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Steve Ballmer" />
+
+        <RadioButton
+            android:id="@+id/o2c"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mark Zuckerberg" />
+
+        <RadioButton
+            android:id="@+id/o2d"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Satya Nadella" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:text="LOCK" />
+
+</LinearLayout>

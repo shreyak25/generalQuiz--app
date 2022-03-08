@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/L2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F76091"
+    android:orientation="vertical"
+    tools:context=".fifth">
+
+    <TextView
+        android:id="@+id/q4"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:text="Q.4 World Tourism Day is celebrated on-" />
+
+    <RadioGroup
+        android:id="@+id/g4"
+        android:layout_width="214dp"
+        android:layout_height="242dp">
+
+        <RadioButton
+            android:id="@+id/o4a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A. September 12" />
+
+        <RadioButton
+            android:id="@+id/o4b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B. September 25" />
+
+        <RadioButton
+            android:id="@+id/o4c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C. September 27" />
+
+        <RadioButton
+            android:id="@+id/o4d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="D.September 29" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:text="Lock" />
+
+</LinearLayout>

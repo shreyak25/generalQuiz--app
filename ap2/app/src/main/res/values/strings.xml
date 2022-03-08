@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">General Quiz</string>
+    <string-array name="Course">
+        <item>Bsc.(H)Computer Science</item>
+        <item>Bsc.(H)Mathematics</item>
+        <item>BA.(H)Geography</item>
+        <item>BA.(H)History</item>
+    </string-array>
+
+</resources>

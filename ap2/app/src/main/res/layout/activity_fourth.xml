@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/L2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7E868"
+    android:orientation="vertical"
+    tools:context=".fourth">
+
+    <TextView
+        android:id="@+id/q3"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:text="Q3. What is part of a database that holds only one type of information?" />
+
+    <RadioGroup
+        android:id="@+id/g3"
+        android:layout_width="214dp"
+        android:layout_height="242dp">
+
+        <RadioButton
+            android:id="@+id/o3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A. Report " />
+
+        <RadioButton
+            android:id="@+id/o3b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B. Field" />
+
+        <RadioButton
+            android:id="@+id/o3c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C. Record" />
+
+        <RadioButton
+            android:id="@+id/o3d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="D. File" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:text="Lock" />
+
+</LinearLayout>

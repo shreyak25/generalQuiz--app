@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/L2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D484E2"
+    android:orientation="vertical"
+    tools:context=".second">
+
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:text="At Which Monument in Delhi did the British forces arrest Bahadur Shah Zafar in September 1857?" />
+
+    <RadioGroup
+        android:id="@+id/g1"
+        android:layout_width="214dp"
+        android:layout_height="242dp">
+
+        <RadioButton
+            android:id="@+id/o1a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A. Humayun’s Tomb  " />
+
+        <RadioButton
+            android:id="@+id/o1b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B. Nizamuddin Dargah" />
+
+        <RadioButton
+            android:id="@+id/o1c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C. Purana Qila" />
+
+        <RadioButton
+            android:id="@+id/o1d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="D. Tughlaqabad fort" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:text="Lock" />
+
+</LinearLayout>
